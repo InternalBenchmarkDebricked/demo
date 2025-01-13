@@ -16,12 +16,12 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-			<version>2.7.6</version>
+			<version>3.3.7</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.zookeeper</groupId>
 			<artifactId>zookeeper</artifactId>
-			<version>3.4.11</version>
+			<version>3.5.10</version>
 		</dependency>
 		<dependency>
 			<groupId>org.kitchen-eel</groupId>
@@ -31,7 +31,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
-			<version>2.7.6</version>
+			<version>3.3.7</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
