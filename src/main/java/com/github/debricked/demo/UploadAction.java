@@ -3,7 +3,7 @@
     import java.io.File;
     import com.opensymphony.xwork2.ActionSupport;
 
-    public UploadAction extends ActionSupport {
+    public class UploadAction extends ActionSupport {
        private File file;
        private String contentType;
        private String filename;
