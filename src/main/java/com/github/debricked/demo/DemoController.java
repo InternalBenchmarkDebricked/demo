@@ -14,7 +14,7 @@ import java.io.IOException;
 public class DemoController {
 
 	@GetMapping("/")
-	public String index() {
+	public String index() throws IOException {
 		Document doc = Jsoup.connect("https://debricked.com/").get();
 	
 	        Elements loginButton = doc.select("div[class^=journey-button] > *:contains(Log in)");
