@@ -19,6 +19,6 @@ public class DemoController {
 	
 	        Elements loginButton = doc.select("div[class^=journey-button] > *:contains(Log in)").first();
 
-		return "Please visit %s to log into Debricked!".formatted(loginButton.attr("href"); 
+		return "Please visit %s to log into Debricked!".formatted(loginButton.attr("href")); 
 	}
 }
