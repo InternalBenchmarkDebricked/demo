@@ -17,7 +17,7 @@ public class DemoController {
 	public String index() {
 		Document doc = Jsoup.connect("https://debricked.com/").get();
 	
-	        Elements loginButton = doc.select("div[class^=journey-button] > *:contains(Log in)").first();
+	        Elements loginButton = doc.select("div[class^=journey-button] > *:contains(Log in)");
 
 		return "Please visit %s to log into Debricked!".formatted(loginButton.attr("href")); 
 	}
