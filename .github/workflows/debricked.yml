@@ -84,5 +84,5 @@ jobs:
           path: debricked-call-graph.java
       - uses: debricked/actions@v4
         env:
-          DEBRICKED_TOKEN: ${{ secrets.DEBRICKED_TOKEN_REVIEW }}
-          DEBRICKED_URI: 'https://review-0000-test-9bydts.review.debricked.dev'
+          DEBRICKED_TOKEN: ${{ secrets.DEBRICKED_TOKEN_STAGING }}
+          DEBRICKED_URI: 'https://review-7817-revie-fhyo2b.review.debricked.dev'
